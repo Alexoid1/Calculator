@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+            <meta charset="utf-8" />
+            
+            <title>Calculator</title>
+            <meta name="author" content="Alexoid"/>
+            <link rel="stylesheet" href="estilos.css">
+              
+            <link href="https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap" rel="stylesheet">
+            <link rel="stylesheet" href="">
+            <meta http-equiv="x-ua-compatible" content="ie-edge">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <div class="calculadora" id="calculadora">
+            <div class='marca'>Alexoid.</div>
+            <div class='pantalla' id='pantalla'>
+                <div class="con">
+                    <p id='print'>hello</p>
+                </div>
+               
+
+            </div>
+            <div class="teclado" id="teclado">
+                <div>
+                    <div class='synt'>
+                        <p class='adver'>
+                            Syntax Error
+                        </p>
+                        <div class='error'>
+
+                        </div>
+                    </div>
+                    
+                </div>
+                <div>
+                    <button id='clear' class="signo " >clr</button>
+                    <button id='erase' class="signo">del</button>
+                    <button id='pm' class="signo ">+/-</button>
+                    <button id='mul' class="signo oper" value='*'>*</button>
+                </div>
+                <div>
+                    <button class='number' id='siete' value='7'>7</button>
+                    <button class='number' id='ocho' value='8'>8</button>
+                    <button class='number' id='nueve' value="9">9</button>
+                    <button class="signo oper" id="div" value='/'>/</button>
+
+                </div>
+                <div>
+                    <button class='number' value='4'>4</button>
+                    <button class='number' value='5'>5</button>
+                    <button class='number' value='6'>6</button>
+                    <button class="signo oper" id="mas" value='+'>+</button>
+                </div>
+                <div>
+                    <button class='number' value='1'>1</button>
+                    <button class='number' value='2'>2</button>
+                    <button class='number' value='3'>3</button>
+                    <button class="signo oper" id='menos' value='-'>-</button>
+                </div> 
+                <div>
+                    <button class='number' value='0'>0</button>
+                    <button class='number' value='00'>00</button>
+                    <button class='number' id='punto' value='.'>.</button>
+                    <button class="signo" id='igual'>=</button>
+                </div>           
+            </div>
+        </div>
+        <script src='app.js'></script>
+
+    </body>
+</html>    
